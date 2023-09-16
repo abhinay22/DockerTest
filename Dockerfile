@@ -2,7 +2,7 @@ From mcr.microsoft.com/dotnet/sdk:8.0 As Sdk
 WorkDir /DemoApp
 
 
-Copy ../
+Copy . ./
 Run dotnet restore
 Run dotnet publish -c Release -o out
 
